@@ -1,0 +1,20 @@
+title: 'no style, please!'
+author: Riccardo Graziosi
+email: riccardo.graziosi97@gmail.com
+url: ''
+baseurl: ''
+description: |
+  A (nearly) no-CSS, fast, minimalist Jekyll theme.
+permalink: '/:slug.html'
+favicon: logo.png
+theme: no-style-please
+theme_config:
+  appearance: auto
+  back_home_text: ..
+  date_format: '%Y-%m-%d'
+  show_description: false
+sass:
+  style: ':compressed'
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
